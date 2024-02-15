@@ -36,10 +36,10 @@ const WorkExperience = () => {
 
       <div className="experience-content">
         <div className="arrow-right" onClick={slideRight}>
-          <span className="material-symbols-outlined"> → </span>
+          <span className="material-symbols-outlined"><i className="bi bi-chevron-right"></i></span>
         </div>
         <div className="arrow-left" onClick={slideLeft}>
-          <span className="material-symbols-outlined"> ← </span>
+          <span className="material-symbols-outlined">  <i className="bi bi-chevron-left"></i> </span>
         </div>
 
         <Slider ref={sliderRef} {...settings}>
